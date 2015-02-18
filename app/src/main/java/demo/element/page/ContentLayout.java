@@ -32,7 +32,7 @@ public class ContentLayout extends Element {
 
 		html.prefixAttrs("img", "src", "/cs/blueprint/");
 
-//		html.replace("#title", a.editString("Title"));
+		html.replace("#title", a.editString("Title"));
 		html.replace("#subtitle", a.editString("Subtitle"));
 		html.replace("#summary", a.editString("Summary"));
 		html.replace("#detail", a.editText("Detail", ""));
